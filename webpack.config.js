@@ -16,6 +16,7 @@ var config = {
 	module: {
 		rules: [
 			{
+				exclude: /node_modules/,
 				test: /\.css$/,
 				use: [
 					{
@@ -28,6 +29,17 @@ var config = {
 						},
 					},
 				],
+			},
+			{
+				exclude: /node_modules/,
+				test: /\.js$/,
+				use: 'eslint-loader',
+				enforce: 'pre',
+			},
+			{
+				exclude: /node_modules/,
+				test: /\.js$/,
+				use: 'babel-loader',
 			},
 		],
 	},
@@ -57,6 +69,12 @@ switch (TARGET) {
 		module.exports = merge(
 			config,
 			{
+				devServer: {
+					contentBase: path.join(__dirname, 'lib'),
+					compress: true,
+					hot: true,
+					port: 8000,
+				},
 			}
 		)
 }
