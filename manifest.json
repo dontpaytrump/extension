@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "DontPayTrump",
+  "description": "The simple Trump boycott extension that makes it easy to be a conscious consumer and keep your money out of Trump’s tiny hands.",
+  "version": "2.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+	"default_title": "DontPayTrump - Site Settings"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+      ],
+      "js": [
+        "lib/content.js",
+      ],
+    },
+  ],
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://ajax.googleapis.com/"
+  ]
+}
