@@ -1,5 +1,6 @@
 var utils = require('utils')
 
 (function() {
-	var domain = utils.getCurrentDomain()
+	const domain = utils.getCurrentDomain()
+	const company = utils.getCompany(domain)
 })()
