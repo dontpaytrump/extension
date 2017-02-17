@@ -2,6 +2,8 @@ Dont Pay Trump Chrome Extension
 ---
 
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
+[![Build
+Status](https://travis-ci.org/dontpaytrump/extension.svg?branch=master)](https://travis-ci.org/dontpaytrump/extension)
 
 ## Overview
 Don't Pay Trump is a Chrome extension that makes it easier to shop
