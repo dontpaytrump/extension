@@ -6,6 +6,31 @@ Dont Pay Trump Chrome Extension
 ## Overview
 
 ## Contributing
+When commiting to the code base, use the following rules when making
+commits to specify the type of code change.
+
+```
+-b- for bug fix
+-f- for feature including build improvements and tests
+-d- for documentation change or comments
+-r- for refactoring code
+```
+
+We love improvments to the code base and ideas to make the tool better.
+Please open an issue with the following format and we can discuss the
+work that needs to be done.
+
+```
+*Title*
+A simple identifier
+
+*Issue type*
+One of the following [bug|docs|feature|refactor]
+
+*Description*
+What does this issue aim to solve or improve? How long would it take to
+implement and how does it enhance the extension overall.
+```
 
 ## License
 Copyright 2017 Don't Pay Trump
