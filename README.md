@@ -4,6 +4,20 @@ Dont Pay Trump Chrome Extension
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
 
 ## Overview
+Don't Pay Trump is a Chrome extension that makes it easier to shop
+ethically. We were inspired by the [Grab Your
+Wallet](https://grabyourwallet.org/) campaign and make use of the list
+they built out. The goals are to make it simple and easy to boycott
+companies that support Trump by selling his family's products.
+
+## Goals
+While boycotting these companies is the main goal of the campaign, the
+overall goals of the extension itself are the following:
+
+- Easily configurable per user preferences
+- The experience should be unintrusive as a browsing experience
+- Accessible to differently abled people
+- Lightweight on the users device resource usage
 
 ## Contributing
 When commiting to the code base, use the following rules when making
